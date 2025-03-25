@@ -52,7 +52,24 @@ This is a **Task Management** web application built using the **MERN stack** (Mo
 
   ```bash
   MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/Tasks_info?retryWrites=true&w=majority
+  ```
+
 4. **Run the backend server:**
 
  ```bash
  npm start
+ ```
+
+## Frontend Setup:
+1.**Navigate to the frontend folder, install dependencies, and start the React development server:**
+
+```bash
+
+Edit
+cd frontend
+npm install
+npm start
+```
+The application will be available at http://localhost:3000.
+
+
