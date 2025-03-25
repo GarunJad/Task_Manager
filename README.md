@@ -65,11 +65,19 @@ This is a **Task Management** web application built using the **MERN stack** (Mo
 
 ```bash
 
-Edit
 cd frontend
 npm install
 npm start
 ```
 The application will be available at http://localhost:3000.
+
+## Task Model (Backend)
+1. id: Unique identifier (string or number)
+
+2. title: Brief description of the task
+
+3. description: (Optional) Detailed information about the task
+
+4. completed: Boolean flag indicating whether the task is completed
 
 
