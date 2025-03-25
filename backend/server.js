@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 require('dotenv').config();
 // Import the Task model
-const Task = require('./models/Task');
+const Task = require('./models/tasks');
 
 const app = express();
 
