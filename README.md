@@ -42,3 +42,9 @@ This is a **Task Management** web application built using the **MERN stack** (Mo
    ```bash
    git clone https://github.com/your-username/task-manager.git
    cd task-manager
+
+2. **Install the dependencies for the backend:**
+
+   ```bash
+   cd backend
+   npm install   
