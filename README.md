@@ -47,4 +47,12 @@ This is a **Task Management** web application built using the **MERN stack** (Mo
 
    ```bash
    cd backend
-   npm install   
+   npm install
+3. **Create a .env file in the backend directory and add your MongoDB connection string:**
+
+  ```bash
+  MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/Tasks_info?retryWrites=true&w=majority
+4. **Run the backend server:**
+
+ ```bash
+ npm start
